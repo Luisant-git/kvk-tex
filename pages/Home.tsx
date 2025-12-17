@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, CheckCircle2, Factory, ShieldCheck, Truck } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Factory, ShieldCheck, Truck, Droplet, Zap, Award, Palette } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
@@ -70,8 +70,57 @@ const Home: React.FC = () => {
         </div>
       </section>
 
+      {/* Product Features */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <span className="text-blue-600 font-semibold uppercase tracking-wider text-sm">Why Choose Us</span>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-900 mt-2 mb-4">Product Features</h2>
+            <div className="w-20 h-1 bg-blue-600 mx-auto rounded-full"></div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="h-48 rounded-lg overflow-hidden mb-4 shadow-lg">
+                <img src="https://www.akfabrics.com/img/c1.jpg" alt="Fabric Manufacturing" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="text-lg font-semibold text-slate-900">Fabric Manufacturing</h3>
+            </div>
+            <div className="text-center">
+              <div className="h-48 rounded-lg overflow-hidden mb-4 shadow-lg">
+                <img src="https://www.akfabrics.com/img/c2.jpg" alt="Custom Solutions" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="text-lg font-semibold text-slate-900">Custom Solutions</h3>
+            </div>
+            <div className="text-center">
+              <div className="h-48 rounded-lg overflow-hidden mb-4 shadow-lg">
+                <img src="https://www.akfabrics.com/img/c3.jpg" alt="Bulk Production" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="text-lg font-semibold text-slate-900">Bulk Production</h3>
+            </div>
+            <div className="text-center">
+              <div className="h-48 rounded-lg overflow-hidden mb-4 shadow-lg">
+                <img src="https://www.akfabrics.com/img/c4.jpg" alt="Quality Assurance" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="text-lg font-semibold text-slate-900">Quality Assurance</h3>
+            </div>
+            <div className="text-center">
+              <div className="h-48 rounded-lg overflow-hidden mb-4 shadow-lg">
+                <img src="https://www.akfabrics.com/img/c5.jpg" alt="Technical Support" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="text-lg font-semibold text-slate-900">Technical Support</h3>
+            </div>
+            <div className="text-center">
+              <div className="h-48 rounded-lg overflow-hidden mb-4 shadow-lg">
+                <img src="https://www.akfabrics.com/img/c6.jpg" alt="Sustainable Practices" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="text-lg font-semibold text-slate-900">Sustainable Practices</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Product Highlight */}
-      <section className="py-0">
+      <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <span className="text-blue-600 font-semibold uppercase tracking-wider text-sm">Our Specialties</span>
@@ -108,11 +157,11 @@ const Home: React.FC = () => {
       {/* Brief About */}
       <section className="bg-slate-9 text-black py-20">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 flex justify-center">
              <img 
               src="https://images.unsplash.com/photo-1675176785803-bffbbb0cd2f4?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGV4dGlsZSUyMG1hY2hpbmV8ZW58MHx8MHx8fDA%3D" 
               alt="Textile machine" 
-              className="rounded-lg shadow-2xl opacity-90 max-h-[400px] w-90 object-cover"
+              className="rounded-lg shadow-2xl opacity-90 max-h-[300px] max-w-[400px] object-cover"
              />
           </div>
           <div className="md:w-1/2 space-y-6">

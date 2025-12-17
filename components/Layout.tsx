@@ -111,7 +111,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           href="https://facebook.com" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="p-3.5 text-slate-400 hover:bg-[#1877F2] hover:text-white transition-all duration-300 border-b border-slate-50 last:border-0 group"
+          className="p-3.5 bg-[#1877F2] text-white hover:bg-[#1877F2] transition-all duration-300 border-b border-slate-50 last:border-0 group"
           aria-label="Facebook"
         >
           <Facebook size={20} strokeWidth={1.5} className="group-hover:scale-110 transition-transform" />
@@ -120,7 +120,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           href="https://instagram.com" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="p-3.5 text-slate-400 hover:bg-[#E4405F] hover:text-white transition-all duration-300 border-b border-slate-50 last:border-0 group"
+          className="p-3.5 bg-[#E4405F] text-white hover:bg-[#E4405F] transition-all duration-300 border-b border-slate-50 last:border-0 group"
           aria-label="Instagram"
         >
           <Instagram size={20} strokeWidth={1.5} className="group-hover:scale-110 transition-transform" />
@@ -129,7 +129,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           href="https://twitter.com" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="p-3.5 text-slate-400 hover:bg-black hover:text-white transition-all duration-300 border-b border-slate-50 last:border-0 group"
+          className="p-3.5 bg-black text-white hover:bg-black transition-all duration-300 border-b border-slate-50 last:border-0 group"
           aria-label="Twitter"
         >
           <Twitter size={20} strokeWidth={1.5} className="group-hover:scale-110 transition-transform" />
@@ -138,7 +138,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           href="https://linkedin.com" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="p-3.5 text-slate-400 hover:bg-[#0A66C2] hover:text-white transition-all duration-300 border-b border-slate-50 last:border-0 group"
+          className="p-3.5 bg-[#0A66C2] text-white hover:bg-[#0A66C2] transition-all duration-300 border-b border-slate-50 last:border-0 group"
           aria-label="LinkedIn"
         >
           <Linkedin size={20} strokeWidth={1.5} className="group-hover:scale-110 transition-transform" />
@@ -147,7 +147,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           href="https://wa.me/918344496674" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="p-3.5 text-slate-400 hover:bg-[#25D366] hover:text-white transition-all duration-300 group"
+          className="p-3.5 bg-[#25D366] text-white hover:bg-[#25D366] transition-all duration-300 group"
           aria-label="WhatsApp"
         >
           <MessageCircle size={20} strokeWidth={1.5} className="group-hover:scale-110 transition-transform" />
