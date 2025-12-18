@@ -155,7 +155,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       </div>
 
       {/* Floating Support Button */}
-      <Link
+      {/* <Link
         to="/contact"
         className="fixed bottom-6 right-6 z-40 bg-blue-600 text-white p-4 rounded-full shadow-xl shadow-blue-600/30 hover:bg-blue-700 hover:shadow-blue-600/50 hover:-translate-y-1 transition-all duration-300 flex items-center justify-center group"
         aria-label="Contact Support"
@@ -164,7 +164,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <span className="max-w-0 overflow-hidden group-hover:max-w-xs group-hover:ml-3 transition-all duration-300 ease-in-out whitespace-nowrap text-sm font-medium opacity-0 group-hover:opacity-100">
           Chat with us
         </span>
-      </Link>
+      </Link> */}
 
       {/* Footer */}
       <footer className="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
